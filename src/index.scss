@@ -1,0 +1,13 @@
+@import "./assets/scss/app.scss";
+@import '../node_modules/react-redux-toastr/src/styles/index';
+
+form label {
+    color: #2e2f42;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    font-weight: 200;
+    text-transform: none;
+}
+.mt-1{
+    margin-top: 1rem !important;
+}

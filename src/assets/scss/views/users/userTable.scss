@@ -1,0 +1,87 @@
+thead tr{
+    // background-color: #404258;
+    background-color: #72737b;
+    text-transform: uppercase;
+
+}
+.table-sm td {
+    padding: 0.7rem;
+  }
+.wrapper.layout-dark .table thead th{
+    border-bottom: none;
+}
+.wrapper.layout-dark .table th, .wrapper.layout-dark .table td{
+    border-top: none;
+}
+.table-striped tbody tr:nth-of-type(odd){
+    background-color:#404258;
+}
+.table-striped tbody tr:nth-of-type(even){
+    // background-color: #404258;
+    background-color: #373850;
+}
+.wrapper.layout-dark .table td{
+    color: #bdbdc7;
+}
+tbody + thead{
+  display: none;
+}
+.dataTables_filter, .dataTables_paginate{
+    float: right;
+}
+select.custom-select.custom-select-sm.form-control.form-control-sm{
+    margin-left: 0px !important;
+}
+.table-bordered{
+    border: none;
+}
+.table-bordered th,.table-bordered td {
+    border: 1px solid #2e2f42;
+}
+// .wrapper.layout-dark .form-control {
+//     background-color: #f0f0f1;
+//     color: #212529;
+// }
+/****************************************************/
+.rt-tr {
+    background-color: #1b75bc;
+}
+.ReactTable .rt-td {
+padding: 10px 7px;
+}
+.ReactTable .rt-thead .rt-th, .ReactTable .rt-thead .rt-td{
+    padding: 10px 7px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.ReactTable .rt-thead {
+    overflow-y: hidden;
+}
+.ReactTable.-striped .rt-tr.-odd {
+    background-color: rgb(240, 240, 241) !important;
+}
+.ReactTable.-striped .rt-tr.-even {
+    background-color: #fff !important;
+}
+.wrapper.layout-dark main {
+    color: #212529;
+}
+.modal{
+    z-index: 1050 !important;
+}
+
+.wrapper.layout-dark .table thead th {
+    border-bottom: none;
+    padding: 10px 10px;
+}
+label, .dataTables_info{
+    color: #fff;
+}
+.dropdown-menu-right {
+    left: -110px !important;
+    right: auto !important;
+}
+.spinner_text {
+    color: #fff;
+    vertical-align: middle;
+}
